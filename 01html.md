@@ -18,3 +18,20 @@ EMMET
 ---
 https://inpa.tistory.com/entry/HTML-%F0%9F%8E%A8-Emmet-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC
 
+TABLE
+---
+https://developer.mozilla.org/ko/docs/Learn/HTML/Tables/Basics
+
+A_Tag
+---
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/a
+
+Img_Tag
+---
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/img
+
+Video_Tag
+---
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/video
+
+

@@ -2,9 +2,9 @@
 
 BASIC
 ---
->> block vs Inline 
-- Style Priority
-- max-width , min-width , max-height, min-height
+> block vs Inline 
+> Style Priority
+> max-width , min-width , max-height, min-height
 - width,height size unit
 - font color 
 - font size unit

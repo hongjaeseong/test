@@ -2,7 +2,7 @@
 
 BASIC
 ---
-- block vs Inline 
+> block vs Inline 
 - Style Priority
 - max-width , min-width , max-height, min-height
 - width,height size unit

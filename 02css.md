@@ -1,18 +1,6 @@
 # CSS
-BASIC
----
-- HTML 기본 코드 구조
-- h1~h6 , hr, br , p, div, span, entity
-- ul>li태그 , ol>li태그
-- Emmet 
-- Table
-- A Tag
-- Image Tag
-- Video Tag
-- Form Tag
-- Data-Set Attribute
 
-BOX
+BASIC
 ---
 - block vs Inline 
 - Style Priority
@@ -25,6 +13,17 @@ BOX
 - text
 - font-family
 
+BOX
+---
+- box-margin
+- box-padding
+- box-border
+- box-sizing
+- box-overflow
+
 SELECTOR
 ---
+- 전체선택자,요소선택자,클래스선택자,id선택자,그룹선택자
+- 자식선택자,자손선택자
+
  

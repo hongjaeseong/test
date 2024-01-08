@@ -2,6 +2,7 @@
 
 BASIC
 ---
+- basic [참고](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
 - block vs Inline 
 - Style Priority
 - max-width , min-width , max-height, min-height

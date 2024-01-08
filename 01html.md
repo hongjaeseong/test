@@ -1,9 +1,5 @@
 # HTML
-HTML이란 / HTML 기본 구조코드 
----
-https://webclub.tistory.com/608
-
-IDX
+Index
 ---
 - HTML 기본 코드 구조
 - h1~h6 , hr, br , p, div, span, entity
@@ -15,6 +11,12 @@ IDX
 - Video Tag
 - Form Tag
 - Data-Set Attribute
+
+HTML이란 / HTML 기본 구조코드 
+---
+https://webclub.tistory.com/608
+
+
 
 
 블럭형태그 vs 인라인태그

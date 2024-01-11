@@ -26,23 +26,26 @@ SELECTOR
 ---
 - 전체선택자,요소선택자,클래스선택자,id선택자,그룹선택자
 - 자식선택자,자손선택자
+- 동위선택자
+- 의사선택자
+- 가상선택
 
 POSITION
 ---
--
--
--
+- static / relative / absolute / sticky
+- 메뉴만들기
+- z-index
 
 LAYOUT
 ---
--
--
--
+- Flex
+- Grid
+- Layout구성
 
 
 ANIMATION
 ---
--
+- 
 -
 -
 

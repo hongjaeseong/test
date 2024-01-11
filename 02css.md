@@ -4,7 +4,8 @@
 ---
 [1 Block vs Inline](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC) <br>
 [2 Style Priority](https://blinders.tistory.com/87)<br>
-- max-width , min-width , max-height, min-height
+[3 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)<br>
+- 
 - width,height size unit
 - font color 
 - font size unit

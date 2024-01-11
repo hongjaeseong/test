@@ -3,7 +3,7 @@
 [BASIC](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
 ---
 - basic 
-- block vs Inline 
+- [block vs Inline](https://blinders.tistory.com/87)
 - Style Priority
 - max-width , min-width , max-height, min-height
 - width,height size unit

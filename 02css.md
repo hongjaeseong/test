@@ -1,7 +1,6 @@
 # CSS
 
 [BASIC](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
-
 ---
 - basic 
 - block vs Inline 

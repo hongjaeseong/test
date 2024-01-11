@@ -1,8 +1,8 @@
 # CSS
 
-BASIC
+BASIC [BASIC](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
 ---
-- basic [참고](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- basic 
 - block vs Inline 
 - Style Priority
 - max-width , min-width , max-height, min-height

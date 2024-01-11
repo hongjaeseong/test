@@ -83,19 +83,70 @@
             display:flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
+            border : 0;
         }
-        .wrapper>header>.header-right>nav>.menu>li{}
-        .wrapper>header>.header-right>nav>.menu>li>a{}
-        .wrapper>header>.header-right>nav>.menu>li>.submenu{}
-        .wrapper>header>.header-right>nav>.menu>li>.submenu>li{}
-        .wrapper>header>.header-right>nav>.menu>li>.submenu>li>a{}
+        .wrapper>header>.header-right>nav>.menu>li{
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis:200px;
+            text-align: center;
+
+            position:relative;
+        }
+        .wrapper>header>.header-right>nav>.menu>li>a{
+            display:block;
+        }
+        .wrapper>header>.header-right>nav>.menu>li>.submenu{
+            background-color: white;
+
+            position:absolute;
+            left:0px;
+            top:35px;
+            width:100%;
+
+            display:none;
+        }
+        .wrapper>header>.header-right>nav>.menu>li>.submenu>li{
+            height:35px;
+            line-height:35px;
+        }
+        .wrapper>header>.header-right>nav>.menu>li>.submenu>li>a{
+            
+        }
       
+        .wrapper>header>.header-right>nav>.menu>li:hover .submenu{
+            display:block;
+        }
+
 
         /* main */
         .wrapper>main{
-            height : 700px;
+            /* height : 700px; */
         }
+        
         .wrapper>main>section{}
+        .wrapper>main>section.main--section{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height:500px;
+        }
+        .wrapper>main>section.main--section>aside{
+            flex-grow:1;
+            flex-shrink: 0;
+            flex-basis: 300px;
+            align-self :stretch;
+        }
+
+        .wrapper>main>section.main--section>article{
+            flex-grow:4;
+            flex-shrink:1;
+            flex-basis : 100%;
+            align-self :stretch;
+        }
+
+
 
         /* footer */
         .wrapper>footer{
@@ -177,7 +228,18 @@
             </div>
         </header>
         <main>
-            <section></section>
+            
+
+            <section class="main--section">
+                <aside> ASIDE</aside>
+                <article> ARTICLE</article>
+            </section>
+
+            <section class="sub--section">
+                <aside> ASIDE</aside>
+                <article> ARTICLE</article>
+                <aside> ASIDE</aside>
+            </section>
         </main>
         <footer></footer>
     </div>

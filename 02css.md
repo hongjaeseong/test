@@ -6,11 +6,12 @@
 ##### [2 Style Priority](https://blinders.tistory.com/87)
 ##### [3 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
 
+##### [4 width size unit](https://developer.mozilla.org/ko/docs/Web/CSS/width), [height size unit](https://developer.mozilla.org/ko/docs/Web/CSS/height)
+##### [5 font color](https://developer.mozilla.org/ko/docs/Web/CSS/color)
+##### [6 font size unit](https://developer.mozilla.org/ko/docs/Web/CSS/font-size)
+##### [7 rem width](https://www.inflearn.com/blogs/3759?gad_source=1&gclid=EAIaIQobChMIvvXO5ubWgwMVc10PAh02LQN-EAAYASAAEgL8a_D_BwE)
+ 
 
-- width,height size unit
-- font color 
-- font size unit
-- rem Width
 - background
 - text
 - font-family

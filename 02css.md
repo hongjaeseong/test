@@ -25,6 +25,12 @@
 ##### [1 선택자종류정리](https://velog.io/@dev2820/CSS-CSS-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%A0%95%EB%A6%AC)
 ##### [2 반드시 기억해야할 선택자 30개](https://webdesign.tutsplus.com/ko/the-30-css-selectors-you-must-memorize--net-16048t) 
 
+- 전체선택자,요소선택자,클래스선택자,id선택자,그룹선택자
+- 자식선택자,자손선택자
+- 동위선택자
+- 의사선택자
+- 가상선택자
+
 POSITION
 ---
 - static / relative / absolute / sticky

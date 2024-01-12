@@ -6,7 +6,7 @@
 ##### [2 Style Priority](https://blinders.tistory.com/87)
 ##### [3 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
 
-##### 3 (width size unit)[https://developer.mozilla.org/ko/docs/Web/CSS/width], (height size unit)[https://developer.mozilla.org/ko/docs/Web/CSS/height] 
+##### 3 [width size unit](https://developer.mozilla.org/ko/docs/Web/CSS/width), [height size unit](https://developer.mozilla.org/ko/docs/Web/CSS/height)
 - font color 
 - font size unit
 - rem Width

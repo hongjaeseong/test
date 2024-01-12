@@ -38,11 +38,13 @@
 - GNB 메뉴만들기(가로형 2Depth / 세로형 2Depth)
 
 
-LAYOUT
+[LAYOUT](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Introduction)
 ---
-- Flex
-- Grid
-- Layout구성
+##### [01-01 Flex] (https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Flexbox)
+##### [01-02 Flex-blog](https://studiomeal.com/archives/197)
+##### [02-01 Grid] (https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Grids)
+##### [02-02 Grid-blog ] (https://studiomeal.com/archives/533)
+- Layout구성해보기
 
 
 ANIMATION

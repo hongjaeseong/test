@@ -16,11 +16,9 @@
 
 BOX
 ---
-- box-margin
-- box-padding
-- box-border
-- box-sizing
-- box-overflow
+##### [01 Box-*](https://developer.mozilla.org/ko/docs/Web/CSS/font)
+##### [02 Overflow-*](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+
 
 SELECTOR
 ---

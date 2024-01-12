@@ -1,10 +1,11 @@
 # 02_화면구현
 INDEX
 ---
-#### [HTML](./01html.md)
-#### [CSS](./02css.md)
-#### [MINI PROJECT(NETFLEX)](.miniproject01.md)
-#### [JS](./03js.md)
+#### [01 HTML](./01html.md)
+#### [02 CSS](./02css.md)
+#### [03 MINI PROJECT(NETFLEX)](./03minipj_netflex.md)
+#### [04 JS](./04js.md)
+#### [05 MINI PROJECT](./05minipj_wedding.md)
 
 
 

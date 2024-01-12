@@ -10,11 +10,9 @@
 ##### [5 font color](https://developer.mozilla.org/ko/docs/Web/CSS/color)
 ##### [6 font size unit](https://developer.mozilla.org/ko/docs/Web/CSS/font-size)
 ##### [7 rem width](https://www.inflearn.com/blogs/3759?gad_source=1&gclid=EAIaIQobChMIvvXO5ubWgwMVc10PAh02LQN-EAAYASAAEgL8a_D_BwE)
- 
-
-- background
-- text
-- font-family
+##### [8 background](https://developer.mozilla.org/ko/docs/Web/CSS/background) 
+##### [9 text](https://developer.mozilla.org/ko/docs/Web/CSS/text-align)
+##### [10 font](https://developer.mozilla.org/ko/docs/Web/CSS/font)
 
 BOX
 ---

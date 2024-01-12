@@ -2,16 +2,16 @@
 
 [BASIC](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
 ---
-##### [1 Block vs Inline](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC)
-##### [2 Style Priority](https://blinders.tistory.com/87)
-##### [3 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
+##### [01 Block vs Inline](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC)
+##### [02 Style Priority](https://blinders.tistory.com/87)
+##### [03 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
 
-##### [4 width size unit](https://developer.mozilla.org/ko/docs/Web/CSS/width), [height size unit](https://developer.mozilla.org/ko/docs/Web/CSS/height)
-##### [5 font color](https://developer.mozilla.org/ko/docs/Web/CSS/color)
-##### [6 font size unit](https://developer.mozilla.org/ko/docs/Web/CSS/font-size)
-##### [7 rem width](https://www.inflearn.com/blogs/3759?gad_source=1&gclid=EAIaIQobChMIvvXO5ubWgwMVc10PAh02LQN-EAAYASAAEgL8a_D_BwE)
-##### [8 background](https://developer.mozilla.org/ko/docs/Web/CSS/background) 
-##### [9 text](https://developer.mozilla.org/ko/docs/Web/CSS/text-align)
+##### [04 width size unit](https://developer.mozilla.org/ko/docs/Web/CSS/width), [height size unit](https://developer.mozilla.org/ko/docs/Web/CSS/height)
+##### [05 font color](https://developer.mozilla.org/ko/docs/Web/CSS/color)
+##### [06 font size unit](https://developer.mozilla.org/ko/docs/Web/CSS/font-size)
+##### [07 rem width](https://www.inflearn.com/blogs/3759?gad_source=1&gclid=EAIaIQobChMIvvXO5ubWgwMVc10PAh02LQN-EAAYASAAEgL8a_D_BwE)
+##### [08 background](https://developer.mozilla.org/ko/docs/Web/CSS/background) 
+##### [09 text](https://developer.mozilla.org/ko/docs/Web/CSS/text-align)
 ##### [10 font](https://developer.mozilla.org/ko/docs/Web/CSS/font)
 
 BOX

@@ -22,7 +22,7 @@
 
 [SELECTOR](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_selectors)
 ---
-##### [1 선택자종류정리]([https://developer.mozilla.org/ko/docs/Web/CSS/Universal_selectors](https://velog.io/@dev2820/CSS-CSS-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%A0%95%EB%A6%AC))
+##### [1 선택자종류정리](https://velog.io/@dev2820/CSS-CSS-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%A0%95%EB%A6%AC)
 ##### [2 반드시 기억해야할 선택자 30개](https://webdesign.tutsplus.com/ko/the-30-css-selectors-you-must-memorize--net-16048t) 
 
 POSITION

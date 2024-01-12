@@ -7,9 +7,11 @@
 ##### [3 max-width , min-width , max-height, min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
 
 ##### 3 [width size unit](https://developer.mozilla.org/ko/docs/Web/CSS/width), [height size unit](https://developer.mozilla.org/ko/docs/Web/CSS/height)
-- font color 
-- font size unit
-- rem Width
+##### 4 [font color](https://developer.mozilla.org/ko/docs/Web/CSS/color)
+##### 5 [font size unit](https://developer.mozilla.org/ko/docs/Web/CSS/font-size)
+##### 6 [rem width](https://www.inflearn.com/blogs/3759?gad_source=1&gclid=EAIaIQobChMIvvXO5ubWgwMVc10PAh02LQN-EAAYASAAEgL8a_D_BwE)
+ 
+
 - background
 - text
 - font-family

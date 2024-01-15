@@ -5,7 +5,7 @@ INDEX
 #### [02 CSS](./02css.md)
 #### [03 MINI PROJECT(NETFLEX)](./03minipj_netflex.md)
 #### [04 JS](./04js.md)
-#### [05 MINI PROJECT](./05minipj_wedding.md)
+#### [05 MINI PROJECT(WEDDING)](./05minipj_wedding.md)
 
 
 

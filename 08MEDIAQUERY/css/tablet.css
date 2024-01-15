@@ -19,3 +19,8 @@
 .wrapper>header>.header-right>nav>.menu>li>.submenu{
     /* z-index:3; */
 }
+
+.wrapper>main>section{
+    display:flex;
+    flex-direction: column;
+}

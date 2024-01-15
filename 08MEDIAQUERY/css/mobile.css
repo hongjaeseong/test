@@ -24,7 +24,7 @@ body{
 }
 
 .wrapper>header{
-    height :200px !important;
+    /* height :175px !important; */
     display:flex;
     align-items: start !important;
     flex-direction: column !important;
@@ -36,10 +36,7 @@ body{
     display:none !important;
 }
 .wrapper>header>.header-right{
-  
     display:block;
-    
-    
 }
 
 .wrapper>header>.header-right>.top-header{
@@ -77,6 +74,10 @@ body{
     height : 35px;
     line-height : 35px;
 }
+.wrapper>header>.header-right>nav>.menu>li>.submenu{
+    border : 1px solid !important;
+}
+
 /* main은 기본 block */
 .wrapper>main{
 

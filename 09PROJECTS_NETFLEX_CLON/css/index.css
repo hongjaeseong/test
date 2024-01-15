@@ -111,16 +111,113 @@
     
 }
 .wrapper>main>section.main--section>div>.right input[type="text"]{
-    width:600px;
+    width:400px;
     height:60px;
     background-color: transparent;
     font-size:1.2rem;
     color:white;
+    margin-right:25px;
+    background-color: black;
+    opacity: 0.7;
+
+    position:relative;
+   
 }
+.wrapper>main>section.main--section>div>.right input[type="text"]:focus{
+    outline:3px solid white;
+}
+.wrapper>main>section.main--section>div>.right input[type="text"]::placeholder{
+    font-size:1rem;
+    color:lightgray;
+    transition: 0.2s;
+}
+
+.wrapper>main>section.main--section>div>.right input[type="text"]:focus::placeholder{
+    display:block;
+    position:absolute;
+    left: 15px;
+    top:3px;
+    font-size:0.7rem;
+   
+}
+
 .wrapper>main>section.main--section>div>.right a{
-    height:60px;
-    line-height: 60px;
+    width:180px;
+    height:60px;    
     font-size : 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* section.sub01 */
+.wrapper>main>section.sub01{
+
+    height:600px;
+    background-color: black;;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:-100px;
+    border-top:3px solid gray;
+    border-bottom:3px solid gray;
+    
+}
+.wrapper>main>section.sub01>div{
+   display:flex;
+   justify-content: center;
+   top:-50px;
+}
+
+.wrapper>main>section.sub01 .sub--left{
+   color : white;
+    
+   margin-right:50px;
+
+   display:flex;
+   /* align-items: center; */
+   justify-content: center;
+   flex-direction: column;
+   height:100%;
+}
+.wrapper>main>section.sub01 .sub--left p{
+    font-size:3rem;
+    font-weight:800;
+}
+.wrapper>main>section.sub01 .sub--left div{
+    font-size:1.6rem;
+    
+}
+
+.wrapper>main>section.sub01 .sub--right{
+    position:relative;
+    width : 100%;
+
+    
+  
+}
+.wrapper>main>section.sub01 .sub--right>img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto; 
+    z-index:2;
+    
+}
+.wrapper>main>section.sub01 .sub--right>video{
+    position:absolute;
+    top:-10px;
+    bottom:0;
+    right:90px;
+    margin:auto;
+
+}
+
+
+
+
 /* footer */
 .wrapper>footer{}

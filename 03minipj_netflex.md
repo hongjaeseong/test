@@ -3,15 +3,13 @@
 
 01 index.html
 ---
--
--
+![20240115171044](https://github.com/EDU-EMBADDED-CURRICULUM/02_SCREEN_IMPL/assets/84259104/8b010b0a-4cb2-4135-94c7-8236a82c3d7e)
+
 
 02 login.html
 ---
--
--
+![20240115170900](https://github.com/EDU-EMBADDED-CURRICULUM/02_SCREEN_IMPL/assets/84259104/18ef3a48-6649-4c8f-8615-055e85d1907b)
 
 03 main.html
 ---
--
--
+![20240115170909](https://github.com/EDU-EMBADDED-CURRICULUM/02_SCREEN_IMPL/assets/84259104/fb467667-934f-457a-b17e-57af8f7bae63)

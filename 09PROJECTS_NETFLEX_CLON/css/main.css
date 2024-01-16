@@ -135,12 +135,47 @@
     top:0px;
     
 }
-.wrapper>header>nav>.right>.notification>.trailer{}
-.wrapper>header>nav>.right>.notification>.trailer>.items{}
-.wrapper>header>nav>.right>.notification>.trailer>.items>.item{}
-.wrapper>header>nav>.right>.notification>.trailer>.items>.item>div:nth-child(1){}
-.wrapper>header>nav>.right>.notification>.trailer>.items>.item>div:nth-child(2){}
+.wrapper>header>nav>.right>.notification>.trailer{
+    width:400px;
+    height : 600px;
+    border : 1px solid white;
+    overflow: auto;
+    
+    position:absolute;
+    left:-370px;
+    top:40px;
+   
+    display: none;
 
+}
+.wrapper>header>nav>.right>.notification:hover>.trailer{
+    display:block;
+}
+
+.wrapper>header>nav>.right>.notification>.trailer>.items{}
+.wrapper>header>nav>.right>.notification>.trailer>.items>.item{
+    display:flex;
+    height:80px;
+    border:1px solid white;
+    margin-bottom: 5px;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+.wrapper>header>nav>.right>.notification>.trailer>.items>.item:hover{
+    opacity: 0.8;
+}
+.wrapper>header>nav>.right>.notification>.trailer>.items>.item>div:nth-child(1){
+    width:200px;
+    border: 1px solid white;
+    margin-right:5px;
+}
+.wrapper>header>nav>.right>.notification>.trailer>.items>.item>div:nth-child(2){
+    
+}
+.wrapper>header>nav>.right>.notification>.trailer>.items>.item>div:nth-child(2) span{
+    font-size:0.9rem;
+}
 .wrapper>header>nav>.right span{
     font-size:2rem;
 }

@@ -1,5 +1,8 @@
 # NETFLEX CLON CODING
-## INDEX
+00 Page이동
+---
+[NETFLEX](https://edu-embadded-curriculum.github.io/02_SCREEN_IMPL_NEXTFLIX.github.io/)
+
 
 01 index.html
 ---

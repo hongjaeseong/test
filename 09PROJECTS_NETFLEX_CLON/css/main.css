@@ -48,10 +48,61 @@
 
 .wrapper>header>nav>.right{
     border:1px solid;
-    width:100px;
     height:100%;
+    display: flex;
+    align-items: center;
 }
 
+.wrapper>header>nav>.right>.search{
+    display:flex;
+    align-items: center;
+
+}
+.wrapper>header>nav>.right>.search>input[type='checkbox']{
+    display:none;
+}
+.wrapper>header>nav>.right>.search>label{}
+.wrapper>header>nav>.right>.search>label>span{}
+
+.wrapper>header>nav>.right>.search>input[type='text']{
+    visibility:hidden;
+    width:0px;
+    transition: .4s;
+    /* display: none; */
+}
+.wrapper>header>nav>.right>.search>input[type='checkbox']:checked~input[type="text"]{
+        visibility: visible;
+        width:200px;
+}
+
+.wrapper>header>nav>.right>.notification{
+    position:relative;
+}
+.wrapper>header>nav>.right>.notification::after{
+    content:'!';
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.6rem;
+    font-weight:600;
+    background-color: red;
+    color:white;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    border : 1px solid;
+
+    position:absolute;
+    left:40%;
+    top:0px;
+    
+}
+.wrapper>header>nav>.right span{
+    font-size:2rem;
+}
+.wrapper>header>nav>.right>div{
+    margin-left:10px;
+}
 
 /* main */
 .wrapper>main{}

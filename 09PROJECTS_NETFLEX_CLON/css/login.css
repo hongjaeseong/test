@@ -85,8 +85,9 @@
     font-size:0.6rem;
 
 }
-.wrapper>main>section.login>.login-body>form button{
-    
+.wrapper>main>section.login>.login-body>form button>a{
+    color:white;
+    text-decoration: none;
 }
 
 .wrapper>main>section.login>.login-option{

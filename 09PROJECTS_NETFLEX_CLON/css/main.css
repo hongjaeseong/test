@@ -1,0 +1,61 @@
+
+.wrapper{}
+
+
+/* header */
+.wrapper>header{}
+.wrapper>header>.top-header{}
+
+.wrapper>header>nav{
+    height:68px;
+    border : 1px solid;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper>header>nav>.left{
+    border:1px solid;
+
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height:100%;
+}
+.wrapper>header>nav>.left>.logo{
+  
+}
+.wrapper>header>nav>.left>.logo>img{
+    width:120px;
+    height:50px;
+}
+
+.wrapper>header>nav>.left>.menu{
+    margin:0;padding:0;
+    list-style: none;
+    display:flex;
+}
+.wrapper>header>nav>.left>.menu>li{
+    margin-left:18px;
+    font-size:0.9rem;
+}
+.wrapper>header>nav>.left>.menu>li>a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.wrapper>header>nav>.right{
+    border:1px solid;
+    width:100px;
+    height:100%;
+}
+
+
+/* main */
+.wrapper>main{}
+.wrapper>main>section{}
+
+/* footer */
+.wrapper>footer{}

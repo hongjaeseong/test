@@ -3,8 +3,14 @@
     padding-right:50px;
 }
 
+body{
+    width : 100vw;
+   
+    overflow:hidden;
+}
+
 .wrapper{
-    overflow: hidden;
+    
    
 }
 
@@ -211,7 +217,9 @@
 }
 
 /* main */
-.wrapper>main{}
+.wrapper>main{
+
+}
 
 /* section.main-view */
 .wrapper>main>section{
@@ -219,6 +227,7 @@
 }
 .wrapper>main>section.main-view{
     position:relative;
+ 
     
 }   
 .wrapper>main>section.main-view>.image-block{
@@ -254,7 +263,7 @@
     font-weight: 600;
     margin-bottom:15px;
     
-    border : 1px solid white;
+    /* border : 1px solid white; */
     
 }
 .wrapper>main>section.main-view>.logo-and-text>.body>div:nth-child(1)>span{

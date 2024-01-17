@@ -19,6 +19,10 @@
 
 ISSUE
 ---
-- 01 font-size 
+- 
+- font-size(main.html)
   - font-size를 rem -> vw 로 잡는 경우 브라우저 크기에 따라 함께 크기 변환  
   - font-size를 rem으로 잡는 경우는 :root 의 font-size에 따라 크기 변환
+  - font-size를 px로 잡는 경우 환경변화에 무관하게 고정
+- slider(main.html)
+  - prev,next 에 대한 이벤트처리(JS에서 진행)

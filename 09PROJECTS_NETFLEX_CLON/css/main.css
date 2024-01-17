@@ -38,6 +38,8 @@
     justify-content: left;
     align-items: center;
     height:100%;
+   
+   
 }
 .wrapper>header>nav>.left>.logo{
   
@@ -51,10 +53,13 @@
     margin:0;padding:0;
     list-style: none;
     display:flex;
+   
+    
 }
 .wrapper>header>nav>.left>.menu>li{
     margin-left:18px;
-    font-size:0.9rem;
+    /* font-size:0.9rem; */
+    font-size: .75vw;
 }
 .wrapper>header>nav>.left>.menu>li>a{
     text-decoration: none;
@@ -250,6 +255,99 @@
 
 .wrapper>main>section.main-view>.logo-and-text>div{
     margin-bottom: 25px;
+}
+
+
+.wrapper>main>section.sub-01{
+    position:relative;
+    top:-200px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: orange;
+}
+.wrapper>main>section.sub-01>.slider-block{
+    border : 1px solid;
+    
+    height:200px;
+    overflow:hidden;
+
+    width:100% ;
+    /* position:absolute;
+    left:0px;
+    top:0px; */
+
+    display:flex;
+    align-items: center;
+
+}
+.wrapper>main>section.sub-01>.slider-block>.slider{
+
+    /* border : 1px solid ; */
+    height:150px;   
+    margin:5px;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+
+    width:100% ;
+    
+}
+
+.wrapper>main>section.sub-01>.slider-block>.slider>.slide{
+    flex-shrink: 0;
+    width:200px;
+    height:120px;
+    border : 1px solid ;
+    margin : 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper>main>section.sub-01>.slider-block>.slider>.slide:hover{
+    transform: scale(1.5);
+}
+
+.wrapper>main>section.sub-01>input[type="checkbox"]{
+    display:none;
+}
+.wrapper>main>section.sub-01>label{
+    width:50px;
+    height:200px;
+    background-color: black;
+    opacity: .8;
+    border : 1px solid white;
+    color:white;
+    font-size:2rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    z-index:3;
+
+    position:absolute;
+    top:0px;  
+}
+.wrapper>main>section.sub-01>label.prev{
+    left:0px;
+}
+.wrapper>main>section.sub-01>label.next{
+    right:0px;
+}
+
+.wrapper>main>section.sub-01>input#sub-01-next:checked~.slider-block>.slider{
+    transform:translate(-100%) !important;
+}
+.wrapper>main>section.sub-01>input#sub-01-prev:checked~.slider-block>.slider{
+    transform:translate(100%) !important;
 }
 
 

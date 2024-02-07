@@ -21,8 +21,8 @@ https://webclub.tistory.com/608
 
 블럭형태그 vs 인라인태그
 ---
-https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC <br><br>
-https://sas-study.tistory.com/122
+[참고-01](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC)
+[참고-02](https://sas-study.tistory.com/122)
 
 
 

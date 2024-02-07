@@ -1,6 +1,7 @@
 # HTML
 Index
 ---
+[참고-]()
 - HTML 기본 코드 구조
 - h1~h6 , hr, br , p, div, span, entity
 - ul>li태그 , ol>li태그
@@ -56,11 +57,11 @@ Form_Tag
 
 input_tag
 ---
-[참고-01](https://tcpschool.com/html-tags/input <br/>) |
+[참고-01](https://tcpschool.com/html-tags/input) |
 
 정규표현식 정리
 ---
-[참고-01](https://myeonguni.tistory.com/1555 <br/>) |
+[참고-01](https://myeonguni.tistory.com/1555) |
 [참고-02](https://beagle-dev.tistory.com/114<br/>) |
 
 

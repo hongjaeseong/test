@@ -21,46 +21,48 @@ https://webclub.tistory.com/608
 
 블럭형태그 vs 인라인태그
 ---
-[참고-01](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC)
+[참고-01](https://nack1400.tistory.com/entry/HTML-9-Block-%ED%83%9C%EA%B7%B8-Inline-%ED%83%9C%EA%B7%B8-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC%EB%B8%94%EB%A1%9Dvs%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC) |
 [참고-02](https://sas-study.tistory.com/122)
 
 
 
 엔티티
 ---
-https://tcpschool.com/html/html_text_entities
+[참고-01](https://tcpschool.com/html/html_text_entities) |
 
 EMMET 
 ---
-https://inpa.tistory.com/entry/HTML-%F0%9F%8E%A8-Emmet-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC
+[참고-01](https://inpa.tistory.com/entry/HTML-%F0%9F%8E%A8-Emmet-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC) |
 
 TABLE
 ---
-https://developer.mozilla.org/ko/docs/Learn/HTML/Tables/Basics
+[참고-01](https://developer.mozilla.org/ko/docs/Learn/HTML/Tables/Basics) |
 
 A_Tag
 ---
-https://developer.mozilla.org/ko/docs/Web/HTML/Element/a
+[참고-91](https://developer.mozilla.org/ko/docs/Web/HTML/Element/a) |
 
 Img_Tag
 ---
-https://developer.mozilla.org/ko/docs/Web/HTML/Element/img
+[참고-01](https://developer.mozilla.org/ko/docs/Web/HTML/Element/img) |
 
 Video_Tag
 ---
-https://developer.mozilla.org/ko/docs/Web/HTML/Element/video
+[참고-01](https://developer.mozilla.org/ko/docs/Web/HTML/Element/video) |
 
 Form_Tag
 ---
-https://developer.mozilla.org/ko/docs/Web/HTML/Element/form
+[참고-01](https://developer.mozilla.org/ko/docs/Web/HTML/Element/form) |
 
 input_tag
 ---
-https://tcpschool.com/html-tags/input <br/>
+[참고-01](https://tcpschool.com/html-tags/input <br/>) |
 
 정규표현식 정리
 ---
-https://myeonguni.tistory.com/1555 <br/>
-https://beagle-dev.tistory.com/114<br/>
+[참고-01](https://myeonguni.tistory.com/1555 <br/>) |
+[참고-02](https://beagle-dev.tistory.com/114<br/>) |
+
+
 
 

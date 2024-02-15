@@ -71,7 +71,11 @@
 
         //price*amount 의 누적합을 계산해서(REDUCE)
         //{pid:"1111-2222",총액 : 10000 ,결제일시:new Date()} 형식의 Map으로 출력하세요
-        
+        const resultVal = order1.map((item)=>{ return {price:item.price*item.amount} })
+                                .reduce((sum,item)=>{return sum+item.price },0)
+        console.log(resultVal);                  
+        const pay_result = {pid:"1111-2222",totalPrice:resultVal,pay_date : new Date()} 
+        console.log(pay_result);
     </script>
     
 </body>

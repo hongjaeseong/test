@@ -1,10 +1,14 @@
 ---
+### 베포경로
+---
+ https://edu-embadded-curriculum.github.io/02_SCREEN_IMPL_THREE_CHAR.github.io/
+---
 ### 0 블랜더 설치
 ---
 https://www.youtube.com/watch?v=x1aJPqMVcn0
 
 ---
-### 1블랜더 기본 
+### 1 블랜더 기본 
 ---
 https://www.youtube.com/watch?v=jMwVv7CQqoc
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width :100px;height : 100px;
+            border : 1px solid; margin : 50px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="d1"></div><br>
+    <a href="javascript:void(0)" id="a1">TEST1</a><br>
+    <button id="btn1" onclick="alert('btn clicked inline attr..')">TEST2</button><br>
+    <hr>
+    <div id="d2"></div>
+    <hr>
+    <div id="d3"></div>
+
+    <script>
+        // Click Event
+        const d1tg =  document.getElementById('d1');
+        let d1Cnt=0;
+        d1tg.addEventListener('click',function(){
+            d1tg.innerHTML=`<h4>Clicked...${++d1Cnt}</h4>`;
+        });
+        const a1tg = document.getElementById('a1');
+        a1tg.addEventListener('click',function(){
+            alert("ATAG CLICKED...");
+        });
+        //
+        const btn1tg = document.getElementById('btn1');
+        btn1tg.addEventListener('click',function(){alert("btn clicked..");})
+
+
+
+        //
+
+        //
+    </script>
+
+
+</body>
+</html>

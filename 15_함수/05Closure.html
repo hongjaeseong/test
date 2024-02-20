@@ -54,19 +54,18 @@
 
         // 문제
         // 다음 빈칸을 완성하세요
-
         const  person = ()=>{
-            let name ;
-            let age;
-            let addr;
-            let id;
-            setName = (name)=>{}
-            setAge = (age)=>{}
-            setAddr = (addr)=>{}
-            setId= (id)=>{}
-            getName = ()=>{}
-            getAge = ()=>{}
-            getAddr = ()=>{}
+            this.name;
+            this.age;
+            this.addr;
+            this.id;
+            setName = (name)=>{ this.name = name;}
+            setAge = (age)=>{this.age = age;}
+            setAddr = (addr)=>{this.addr = addr;}
+            setId= (id)=>{this.id = id;}
+            getName = ()=>{return name;}
+            getAge = ()=>{return age;}
+            getAddr = ()=>{return addr;}
             return{
                 setName : setName,
                 setAge : setAge,

@@ -56,8 +56,8 @@
             return true;
         }
 
-        let beforeEl = null; 
-        let beforeYpos = null;
+        let beforeEl = null; //드랍 이전 El 저장
+        let beforeYpos = null;  //드랍 이전 El의 Y좌표 저장
         function createNode(){
                 const contents = inputEl.value; //input value 가져오기
                 const result = isValid(contents);
@@ -65,8 +65,9 @@
                     console.log("clicked..value : ",contents);  
                     const divEl =  document.createElement('div')    //div태그 생성
                     divEl.setAttribute('style','width:300px;height : 40px;border:1px solid;padding:2px;margin:2px;')                    
-                    
-                    //드래그이벤트
+                    //----------------------
+                    //드래그이벤트 추가
+                    //----------------------
                     divEl.setAttribute('draggable',true);   //drag가능상태로 요소 설정
                     divEl.addEventListener('dragstart',function(event){
                         console.log('dragstart event',event);
@@ -90,11 +91,10 @@
                         else    //아래서 위로 이동
                         {
                             beforeEl.after(event.target);
-                        }
-                        
-                        
+                        }    
                     })
 
+                    //----------------------
 
                     divEl.innerHTML=contents;   //input value 를 div의 content에 넣기
                     const delEl = document.createElement('span');

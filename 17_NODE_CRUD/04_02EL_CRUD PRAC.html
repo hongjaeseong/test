@@ -14,10 +14,10 @@
         .material-symbols-outlined {
           font-variation-settings:
           'FILL' 0,
-          'wght' 400,
+          'wght' 300,
           'GRAD' 0,
           'opsz' 24;
-          font-size:1rem;
+          font-size:1.5rem;
         }
         input{
             height : 35px;
@@ -36,6 +36,11 @@
             border : 1px solid;
             margin : 2px;
         }
+        th:nth-child(1),
+        td:nth-child(1)
+        {
+            width : 150px;
+        }
         th:nth-child(3),
         td:nth-child(3)
         {
@@ -46,7 +51,7 @@
 
 </head>
 <body>
-    <form action="" name="joinForm">
+    <form action="" name="joinForm" onsubmit="return false">
         <input name="username" placeholder="이름을 입력하세요" >
         <input name="age"  placeholder="나이를 입력하세요">
         <input name="address" placeholder="주소를 입력하세요">
@@ -76,6 +81,65 @@
         //특정행의 삭제버튼을 클릭했을때 해당 행이 삭제 될수 있도록 합니다.
         
         //특정행의 위치를 위로이동/아래로 이동이 가능하도록 합니다(나중에)
+
+        const btnEl = document.querySelector('.btn');
+        const formEl = document.joinForm;
+        const usernameEl = formEl.username;
+        const ageEl = formEl.age;
+        const addressEl = formEl.address;
+        const tableBodyEl = document.querySelector('table tbody');
+
+        btnEl.addEventListener('click',function(){
+
+            createNode();
+        })
+        function isValid(){
+            return !isNaN(ageEl.value); 
+            //return false;
+        }
+        function createNode(){
+
+            if(isValid())
+            {
+                const tr =document.createElement('tr') //tr생성
+                const td1 = document.createElement('td');//td생성 
+                td1.innerHTML = usernameEl.value;
+                const td2 = document.createElement('td');//td생성 
+                td2.innerHTML = ageEl.value;
+                const td3 = document.createElement('td');//td생성 
+                td3.innerHTML = addressEl.value;
+                const td4 = document.createElement('td');//td생성 
+                const delEl = document.createElement('span');
+                delEl.classList.add('material-symbols-outlined');
+                delEl.innerHTML='delete';
+                delEl.setAttribute('style','cursor:pointer');
+                delEl.addEventListener('click',function(){
+                    const parentEl = delEl.parentNode.parentNode;
+                    console.log(parentEl);
+                    parentEl.remove();  
+                });
+
+                td4.appendChild(delEl);
+
+                //tr-td연결
+                tr.appendChild(td1);
+                tr.appendChild(td2);
+                tr.appendChild(td3); 
+                tr.appendChild(td4);        
+                //tbody-tr연결
+                tableBodyEl.appendChild(tr);
+
+
+            }
+            else
+            {
+                alert("InValided Value..");
+            }
+            usernameEl.value='';
+            ageEl.value='';
+            addressEl.value='';
+
+        }
 
     </script>
 </body>

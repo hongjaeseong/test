@@ -107,6 +107,9 @@
             else if(isNaN(ageEl.value)){
                 alert("나이는 숫자만 입력 가능합니다.")
                 return false;
+            }else if(ageEl.value<15 || ageEl.value>90){
+                alert("나이는 15 ~ 90 의 값만 입력합니다.")
+                return false;
             }
             return true;     
         }

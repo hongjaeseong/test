@@ -89,6 +89,7 @@
         const addressEl = formEl.address;
         const tableBodyEl = document.querySelector('table tbody');
 
+        //버튼 이벤트 처리
         btnEl.addEventListener('click',function(){
             if(isValid()){
                 createNode();
@@ -97,10 +98,19 @@
             ageEl.value='';
             addressEl.value='';
         })
+        //유효성검사 함수(Validation Check )
         function isValid(){
-            return !isNaN(ageEl.value); 
-            //return false;
+            if(ageEl.value==""){
+                alert("나이를 입력하세요");
+                return false;
+            }
+            else if(isNaN(ageEl.value)){
+                alert("나이는 숫자만 입력 가능합니다.")
+                return false;
+            }
+            return true;     
         }
+        //노드생성 함수
         function createNode(){
                 const tr =document.createElement('tr') //tr생성
                

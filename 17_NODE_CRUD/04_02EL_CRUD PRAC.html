@@ -90,18 +90,20 @@
         const tableBodyEl = document.querySelector('table tbody');
 
         btnEl.addEventListener('click',function(){
-
-            createNode();
+            if(isValid()){
+                createNode();
+            }
+            usernameEl.value='';
+            ageEl.value='';
+            addressEl.value='';
         })
         function isValid(){
             return !isNaN(ageEl.value); 
             //return false;
         }
         function createNode(){
-
-            if(isValid())
-            {
                 const tr =document.createElement('tr') //tr생성
+               
                 const td1 = document.createElement('td');//td생성 
                 td1.innerHTML = usernameEl.value;
                 const td2 = document.createElement('td');//td생성 
@@ -129,15 +131,6 @@
                 //tbody-tr연결
                 tableBodyEl.appendChild(tr);
 
-
-            }
-            else
-            {
-                alert("InValided Value..");
-            }
-            usernameEl.value='';
-            ageEl.value='';
-            addressEl.value='';
 
         }
 

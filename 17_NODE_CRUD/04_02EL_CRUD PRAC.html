@@ -114,17 +114,19 @@
             return true;     
         }
         //노드생성 함수
+        let td01_id_val=0;
         function createNode(){
-                const tr =document.createElement('tr') //tr생성
-               
+                td01_id_val++;
+                const tr =document.createElement('tr') //tr생성       
+                tr.setAttribute('draggable',true);
                 const td1 = document.createElement('td');//td생성 
                 
                 const chk1 = document.createElement("input");
                 chk1.setAttribute('type','checkbox');
-                chk1.setAttribute('id','name_id_01')
-               
+                chk1.setAttribute('id',`name_id_01_${td01_id_val}`)
+                chk1.style.display="none";
                 const chk1_label = document.createElement('label');
-                chk1_label.setAttribute('for','name_id_01');
+                chk1_label.setAttribute('for',`name_id_01_${td01_id_val}`);
                 chk1_label.setAttribute('style','display:block;position:relative;')
 
 

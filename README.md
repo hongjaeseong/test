@@ -1,6 +1,6 @@
 # 02_화면구현
 
-|SUBJECT|LINK|DESCRIPTION|
+|SUBJECT|LINK|DISCRIPTION|
 |:---|:---|:---|
 |**HTML**|[바로가기](./READMES/HTML.md)|수정중|
 |**CSS**|[바로가기](./READMES/CSS.md)|수정중|

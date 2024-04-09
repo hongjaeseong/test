@@ -5,6 +5,7 @@
 [CDN](https://cdnjs.com/libraries/Swiper) | 
 [SITE](https://swiperjs.com/) | 
 [참고-총정리](https://codingfirst.kr/3387/) | 
+[참고-SLICK](https://kenwheeler.github.io/slick/) | 
 
 -  모바일 터치 슬라이더를 쉽게 구현할 수 있도록 도와주는 자바스크립트 라이브러리
 

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- SWIPER CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <style>
+        .wrapper {}
+
+        .wrapper>header {
+            height: 165px;
+            /* border: 1px solid; */
+        }
+
+        .wrapper>main>section.banner-section {
+            height: 440px;
+            /* border: 1px solid; */
+        }
+
+        .wrapper>main>section.banner-section>.swiper {
+            /* border: 1px solid; */
+            height: 100%;
+        }
+
+        .wrapper>main>section.banner-section>.swiper>.swiper-wrapper {}
+
+        .wrapper>main>section.banner-section>.swiper>.swiper-wrapper>.swiper-slide {
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid; */
+        }
+
+        .wrapper>main>section.banner-section>.swiper>.swiper-wrapper>.swiper-slide>a {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .wrapper>main>section.banner-section>.swiper>.swiper-wrapper>.swiper-slide>a>img {}
+
+        .swiper {
+            position: relative;
+        }
+
+        .swiper .swiper-pagination {
+            position: absolute;
+            bottom: 47px;
+            left: 525px;
+        }
+
+        .swiper .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            /* background: transparent; */
+            /* background: white(21, 143, 113); */
+            background-color: aliceblue;
+            border: 1px solid transparent;
+        }
+
+        .swiper .swiper-pagination-bullet-active {
+            width: 30px;
+            transition: width .5s;
+            border-radius: 8px;
+            background: rgb(255, 162, 0);
+            border: 1px solid transparent;
+        }
+    </style>
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="top-header"></div>
+            <nav></nav>
+
+        </header>
+
+        <main>
+            <!-- 배너 슬라이드 구현 -->
+            <section class="banner-section">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"> <a href="javascript:void(0)"> <img
+                                    src="images/한류_PC 메인 배너_20240401120104632_20240408092342002.jpg" alt="">
+                            </a> </div>
+                        <div class="swiper-slide"> <a href="javascript:void(0)"> <img
+                                    src="images/썹픽_PC 메인 배너_20240205093541800.jpg" alt="">
+                            </a> </div>
+                        <div class="swiper-slide"> <a href="javascript:void(0)"> <img
+                                    src="images/홈페이지-스트립_1920x440_20240319070626544.jpg" alt="">
+                            </a> </div>
+                        <div class="swiper-slide"> <a href="javascript:void(0)"> <img
+                                    src="images/오늘의 수프(세트)_PC 메인 배너_20240208101744373.jpg" alt="">
+                            </a> </div>
+                        <div class="swiper-slide"> <a href="javascript:void(0)"> <img
+                                    src="images/main_PC_1920x440_20201006040046969.jpg" alt="">
+                            </a> </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <!-- <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script>
+        // swiper_banner 객체 생성
+        const swiper_banner = new Swiper('.wrapper>main>section.banner-section>.swiper', {
+            direction: 'horizontal',
+            autoplay: {
+                delay: 5000,
+                pauseOnMouseEnter: true,
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: 'true',
+                // type : 'bullets',
+
+            },
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>
